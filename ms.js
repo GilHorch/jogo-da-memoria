@@ -12,7 +12,7 @@ const symbols1 = [
     "img/orange.png"
 ];
 const symbols2 = [
-    "carta.png",
+    "cartaverde.png",
     "img/banana.png",
     "img/cherry.png",
     "img/grape.png",
