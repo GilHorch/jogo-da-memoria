@@ -1,4 +1,5 @@
 // Lista de imagens para representar as cartas do jogo
+/*
 const symbols1 = [
     "carta.png",
     "img/banana.png",
@@ -23,6 +24,37 @@ const symbols2 = [
     "img/coconut.png",
     "img/orange.png"
 ];
+*/
+
+const symbols1 = [
+    { id: 1, image: "carta.png" },
+    { id: 2, image: "img/banana.png" },
+    { id: 3, image: "img/cherry.png" },
+    { id: 4, image: "img/grape.png" },
+    { id: 5, image: "img/watermelon.png" },
+    { id: 6, image: "img/pineapple.png" },
+    { id: 7, image: "img/kiwi.png" },
+    { id: 8, image: "img/strawberry.png" },
+    { id: 9, image: "img/coconut.png" },
+    { id: 10, image: "img/orange.png" }
+  ];
+  
+  const symbols2 = [
+    { id: 1, image: "cartaverde.png" },
+    { id: 2, image: "img/banana.png" },
+    { id: 3, image: "img/cherry.png" },
+    { id: 4, image: "img/grape.png" },
+    { id: 5, image: "img/watermelon.png" },
+    { id: 6, image: "img/pineapple.png" },
+    { id: 7, image: "img/kiwi.png" },
+    { id: 8, image: "img/strawberry.png" },
+    { id: 9, image: "img/coconut.png" },
+    { id: 10, image: "img/orange.png" }
+  ];
+  
+
+
+
 
 
 // Duplica os símbolos para criar pares e embaralha a lista de cartas
@@ -76,7 +108,7 @@ function flipCard() {
 function checkMatch() {
     lockBoard = true; // Bloqueia interações enquanto verifica a correspondência
 
-    if (firstCard.dataset.symbol === secondCard.dataset.symbol) {
+    if (firstCard.dataset.id === secondCard.dataset.id) {//trocar id por symbol
         resetCards(true); // Se as cartas combinam, mantém elas visíveis
     } else {
         setTimeout(() => resetCards(false), 1000); // Se não combinam, esconde as cartas após um segundo
