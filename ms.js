@@ -73,6 +73,19 @@ cards.forEach((symbol, index) => {
     card.dataset.symbol = symbol; // Armazena o caminho da imagem como um atributo personalizado
     card.dataset.index = index; // Atribui um índice único à carta
 
+
+
+    const cardElement = document.createElement("div");
+    cardElement.classList.add("card");
+    cardElement.dataset.id = symbol.id;
+    cardElement.style.backgroundImage = `url(${symbol.image})`;
+    
+
+
+
+
+
+
     // Cria um elemento de imagem dentro da carta
     const img = document.createElement("img");
     img.src = symbol; // Define a fonte da imagem
