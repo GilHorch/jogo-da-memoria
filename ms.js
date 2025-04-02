@@ -1,5 +1,17 @@
 // Lista de imagens para representar as cartas do jogo
-const symbols = [
+const symbols1 = [
+    "carta.png",
+    "img/banana.png",
+    "img/cherry.png",
+    "img/grape.png",
+    "img/watermelon.png",
+    "img/pineapple.png",
+    "img/kiwi.png",
+    "img/strawberry.png",
+    "img/coconut.png",
+    "img/orange.png"
+];
+const symbols2 = [
     "carta.png",
     "img/banana.png",
     "img/cherry.png",
@@ -12,8 +24,9 @@ const symbols = [
     "img/orange.png"
 ];
 
+
 // Duplica os símbolos para criar pares e embaralha a lista de cartas
-let cards = [...symbols, ...symbols].sort(() => Math.random() - 0.5);
+let cards = [...symbols1, ...symbols2].sort(() => Math.random() - 0.5);
 let firstCard = null; // Variável para armazenar a primeira carta selecionada
 let secondCard = null; // Variável para armazenar a segunda carta selecionada
 let lockBoard = false; // Variável para impedir novas interações enquanto verifica um par
