@@ -32,8 +32,8 @@ cards.forEach((symbol, index) => {
     const img = document.createElement("img");
     img.src = symbol; // Define a fonte da imagem
     img.classList.add("card-image"); // Adiciona uma classe para estilização no CSS
-   // img.style.width = "100%"; // Define a largura da imagem
-   // img.style.height = "100%"; // Define a altura da imagem
+   img.style.width = "100%"; // Define a largura da imagem
+   img.style.height = "100%"; // Define a altura da imagem
     img.style.display = "none"; // Esconde a imagem inicialmente
 
     card.appendChild(img); // Adiciona a imagem dentro da carta
