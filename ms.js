@@ -27,29 +27,29 @@ const symbols2 = [
 */
 
 const symbols1 = [
-    { id: 1, image: "carta.png" },
-    { id: 2, image: "img/banana.png" },
-    { id: 3, image: "img/cherry.png" },
-    { id: 4, image: "img/grape.png" },
-    { id: 5, image: "img/watermelon.png" },
-    { id: 6, image: "img/pineapple.png" },
-    { id: 7, image: "img/kiwi.png" },
-    { id: 8, image: "img/strawberry.png" },
-    { id: 9, image: "img/coconut.png" },
-    { id: 10, image: "img/orange.png" }
+    { id: 1, image: "1.png" },
+    { id: 2, image: "3.png" },
+    { id: 3, image: "5.png" },
+    { id: 4, image: "7.png" },
+    { id: 5, image: "9.png" },
+    { id: 6, image: "11.png" },
+    { id: 7, image: "13.png" },
+    { id: 8, image: "15.png" },
+    { id: 9, image: "17.png" },
+    { id: 10, image: "19.png" }
   ];
   
   const symbols2 = [
-    { id: 1, image: "cartaverde.png" },
-    { id: 2, image: "img/banana.png" },
-    { id: 3, image: "img/cherry.png" },
-    { id: 4, image: "img/grape.png" },
-    { id: 5, image: "img/watermelon.png" },
-    { id: 6, image: "img/pineapple.png" },
-    { id: 7, image: "img/kiwi.png" },
-    { id: 8, image: "img/strawberry.png" },
-    { id: 9, image: "img/coconut.png" },
-    { id: 10, image: "img/orange.png" }
+    { id: 1, image: "2.png" },
+    { id: 2, image: "4.png" },
+    { id: 3, image: "6.png" },
+    { id: 4, image: "8.png" },
+    { id: 5, image: "10.png" },
+    { id: 6, image: "12.png" },
+    { id: 7, image: "14.png" },
+    { id: 8, image: "16.png" },
+    { id: 9, image: "18.png" },
+    { id: 10, image: "20.png" }
   ];
   
 
